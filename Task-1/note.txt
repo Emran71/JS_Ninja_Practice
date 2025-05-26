@@ -1,0 +1,57 @@
+Exercise 1: Declare Personal Information
+You are introducing yourself to an interview board. Create five variables that store the following information about you:
+
+name: A string with your name (e.g., "Samim")
+
+email: A string with your email address
+
+age: A number representing your age
+
+isDeveloper: A boolean value indicating whether you are a developer
+
+goingToBeDesigner: Assign a clearly negative or null-ish value (e.g., null, undefined)
+
+📌 Follow best practices: use proper variable naming, choose the right declaration keyword (let or const), and maintain readability.
+
+Exercise 2: Construct and Print a Sentence
+Using the variables from Exercise 1, form a sentence that introduces you. Your sentence should look like:
+
+Hey it's me "<name>". I am <age>. You can contact me by this <email>. I am a Developer and it's <isDeveloper>. I am going to be a Designer - <goingToBeDesigner>
+
+Print this sentence using string concatenation
+
+Print it again using template string syntax
+
+Exercise 3: Variable Overwriting
+
+Try declaring multiple variables with the same name in the same scope using let, const, and var.
+
+What happens when you try to redeclare a variable?
+
+Which declaration style allows overwriting?
+
+Which one throws an error?
+
+Exercise 4: Difference Between null and undefined
+Explain the difference between the values null and undefined in JavaScript.
+
+How is each value created?
+
+What do they represent?
+
+How are they treated by JavaScript?
+
+Exercise 5: Understanding NaN
+What is NaN in JavaScript?
+
+When does it occur?
+
+What is the result of using typeof on NaN?
+
+Exercise 6: Declaring a Variable Without a Value
+What happens if you declare a variable without assigning it any value?
+Example: let thing;
+
+What will be the value of thing?
+
+Why does it behave that way?
