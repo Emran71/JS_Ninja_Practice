@@ -1,0 +1,29 @@
+Exercise(Complex Data type):
+1.What are the complex data type in JavaScript?
+2.When and why to use Array vs object (Mention 3 point)
+
+3.Create an profile object that has your firstName, lastName, and occupation as keys
+
+Access each value from your object and console using both dot notation and bracket notation
+
+Add a key for hobby to your existing object. Remove the key and value for occupation
+
+4.when to use dot notation vs bracket notation to access data from object?
+
+5.Write down the multiple ways to define an array and object
+
+5.Nested data access from array and object
+
+const userObj = {
+   name: 'samim',
+   address: {
+      city: 'Dhaka',
+      university: {
+         name: 'Dhaka University'
+      }
+   }
+}
+
+const userArr = ['samim', ['Dhaka', ['Dhaka university']]]
+
+Access university name from the object and array

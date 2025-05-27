@@ -43,5 +43,11 @@ console.log(thing);
 
 // here the variable which has no value it returns undefined value because when the variable has no data javascript throws an undefined value. undefined
 // value means the variable has no value yet.
-
+const friends5 = [
+    { name: 'Zara', age: 25},
+    { name: 'Bob', age: 20},
+    { name: 'Anna', age: 30}
+  ];
+  friends5.sort((a, b) => a.age - b.age);
+  console.log(friends5); 
 
