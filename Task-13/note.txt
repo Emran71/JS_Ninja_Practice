@@ -1,0 +1,160 @@
+/*
+Exercise-1:
+What will be the output of the following code snippet? Why?
+
+function greet() {
+    let message = "Hello";
+    if (true) {
+        let message = "Hi";
+        console.log(message);
+    }
+    console.log(message);
+}
+
+greet();
+
+// 🔍 Task:
+// 1. Predict the output
+// 2. Explain why this happens in terms of scope
+*/
+
+/*
+Exercise-2:
+A developer wrote this function to keep track of users, but it doesn’t work as expected. Fix the scope issue.
+
+let count = 0;
+
+function addUser(name) {
+    let count = 0;
+    count++;
+    console.log(`${name} added. Total users: ${count}`);
+}
+
+addUser("Samim");
+addUser("Raihan");
+
+// 🛠️ Task:
+// 1. Fix the function so that the global `count` is updated.
+// 2. Why wasn't the count increasing?
+*/
+
+
+/*
+Exercise-3:
+What will be printed? Explain using scope chain.
+
+let x = 10;
+
+function outer() {
+    let y = 20;
+    function inner() {
+        let z = 30;
+        console.log(x + y + z);
+    }
+    inner();
+}
+
+outer();
+console.log(z); // ❓ What happens here?
+
+// 📌 Task:
+// 1. Understand which variables are accessible where.
+// 2. Add comments showing why `z` is or isn’t accessible outside.
+*/
+
+/*
+Exercise-4:
+Write a function `createCounter` that returns another function which increments and returns a count.
+
+let counter = createCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+
+// ✨ Hint: Use closure to retain the count variable.
+*/
+
+
+/*
+Exercise-5:
+Fix the following loop to print the correct value of `i` each second.
+
+for (var i = 1; i <= 3; i++) {
+    setTimeout(function () {
+        console.log("After " + i + " second(s):", i);
+    }, i * 1000);
+}
+
+// 🔍 Task:
+// Use closure (or let) to fix the issue so it prints 1, 2, 3 properly
+*/
+
+/*
+Exercise-6:
+Create a function `secureProfile` that returns an object with:
+- a method to get the name
+- a method to update the name
+- a method to hide the name (null it)
+
+The name should not be directly accessible.
+
+let profile = secureProfile("Samim");
+profile.getName(); // "Samim"
+profile.updateName("Raihan");
+profile.getName(); // "Raihan"
+profile.hide();
+profile.getName(); // null
+
+// 🛡️ Use closure to protect the variable
+*/
+
+
+/*
+Exercise-7:
+Predict the output and explain why.
+
+console.log(foo());
+function foo() {
+    return "Hoisted!";
+}
+
+console.log(bar());
+var bar = function () {
+    return "Not hoisted?";
+};
+
+// 🧠 Task:
+// 1. Which function runs and why?
+// 2. What does the second log do?
+*/
+/*
+Exercise-8:
+Wrap the following code in an IIFE to prevent `user` from being accessible globally.
+
+let user = "Samim";
+console.log(user);
+
+// 🧩 Task:
+// 1. Make `user` private using IIFE
+// 2. Ensure the log still prints correctly inside the IIFE
+*/
+
+/*
+Exercise-9 (Bonus):
+Create a `createBankAccount` function that returns an object with methods:
+- `deposit(amount)`
+- `withdraw(amount)`
+- `getBalance()`
+
+It should protect the balance from direct access.
+
+let account = createBankAccount();
+account.deposit(1000);
+account.withdraw(300);
+console.log(account.getBalance()); // 700
+
+console.log(account.balance); // undefined
+
+// 💰 Use closures to keep balance private.
+*/
+
+
