@@ -54,11 +54,11 @@ console.log(z); // here z is not accessible in the global scope because it has i
 
 // Exercise-4:
 // Write a function `createCounter` that returns another function which increments and returns a count.
-let count = 0;
+let count1 = 0;
 function createCounter(){
     return function() {
-        count++;
-        return count;
+        count1++;
+        return count1;
     };
 }
 let counter = createCounter();
