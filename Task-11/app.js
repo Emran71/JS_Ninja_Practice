@@ -59,8 +59,7 @@ const obj = {
     },
   },
 }
-const {name, email, address:{location:{country:{cname,city}}},getAddress} = obj
-// console.log(name , email);
+const {name, email, address:{location:{country:{cname,city}},getAddress}} = obj
 console.log(getAddress.call(obj.address.location)); // Dhaka-Bangladesh
 
 // // Exercise: 5 

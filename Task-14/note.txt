@@ -1,0 +1,90 @@
+Exercise-1:
+You have been given a html document.Answer the below questions with necessary code
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+            <li class="five">Five</li>
+
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+</body>
+</html>
+
+Write the code necessary to do the following: 
+a.Select the section with an id of container without using querySelector.
+b.Select the section with an id of container using querySelector.
+c.Select all of the list items with a class of "second".
+d.Select a list item with a class of third, but only the list item inside of the ol tag.
+e.Give the section with an id of container the text "Hello!".
+f.Add the class main to the div with a class of footer.
+g.Remove the class main on the div with a class of footer.
+h.Create a new li element.
+i.Give the li the text "four".
+j.insert this li before the li with class of five
+k.Loop over all of the list inside the ol tag and give them a background color of "green".
+l.Remove the div with a class of footer.
+
+
+
+Exercise-2(Try to create following structure by using Dom properties and method) insert into body of your html document 
+======================================================================
+<div class="container" id="container">
+  <h1 class="h1">Product List</h1>
+  <ul class="product-collection  mb-3">
+    <li class="product-collection-item" id="sample">Shoes</li>
+  </ul>
+</div> 
+
+Exercise-3(Try to Examine the common event like mouse Events and Keyboard events found in MDN DOCS "https://developer.mozilla.org/en-US/docs/Web/Events")
+
+Exercise-3:What are the difference between event bubbling and event capturing
+
+
+Exercise-4: Write down the benefits of using event delegation? Explain with a practical Example 
+
+
+
+1. Candidate Name: MD. EMRAN KHAN
+
+2. Last Designation : Functional Tester
+
+3. Last In-hand Salary: 25k BDT 
+
+4. Expectation In-hand: 35k BDT
+
+5. Notice Period: Immediately
+
+6. Current Address: 995, East Shewrapara, Dhaka-1216
+
+7. Total Experience as a QA / project coordination: 1year
+
+8. Testing & QA Tools Used: Selenium, playwright, Jmeter, Postman, JIRA
+
+9. Familiarity with UI/UX principles: Basic knowledge of UI/UX
+
+10. Practical knowledge of Agile:  Scrum framework
+
+11. Experience using tools like Figma:  yes. I have basic knowledge in figma.
+
+12. LinkedIn Profile Link:  https://www.linkedin.com/in/ekhan4475
+
+13. Short description of your current roles and responsibilities: Now I am working as a freelancer. I have been working on different sites like Upwork, utest, Testerwork  as a QA tester. Here I fulfill the client requirement according to the project requirements. Creating test cases , Executing the test cases and providing the report are the main objectives for my role.  
